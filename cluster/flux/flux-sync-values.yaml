@@ -1,0 +1,10 @@
+gitRepository:
+  spec:
+    interval: 1m
+    url: https://github.com/samuel-form3/bootstrap-poc.git
+    ref:
+      branch: master
+kustomization:
+  spec:
+    path: /bootstrap
+    targetNamespace: flux
