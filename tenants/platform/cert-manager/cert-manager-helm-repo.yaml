@@ -1,0 +1,9 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: nats
+  namespace: platform
+spec:
+  url: http://chartmuseum.flux-system:8080/charts.tech.form3/nats
+  interval: 5m
