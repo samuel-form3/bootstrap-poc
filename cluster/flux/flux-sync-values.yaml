@@ -3,7 +3,7 @@ gitRepository:
     interval: 1m
     url: https://github.com/samuel-form3/bootstrap-poc.git
     ref:
-      branch: master
+      branch: main
 kustomization:
   spec:
     path: /bootstrap
