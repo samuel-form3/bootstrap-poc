@@ -6,5 +6,5 @@ gitRepository:
       branch: main
 kustomization:
   spec:
-    path: /bootstrap
+    path: /tenants
     targetNamespace: flux
